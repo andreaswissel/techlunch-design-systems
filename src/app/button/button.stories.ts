@@ -18,15 +18,9 @@ Default.args = {
 };
 
 Default.argTypes = {
-  label: {
-    name: 'Label'
-  },
-  bgColor: {
-    name: 'Background Color',
-    control: 'color'
-  },
-  fontSize: {
-    name: 'Font Size',
-    control: {type: 'range', min: 8, max: 20}
+  label: { name: 'Label' },
+  bgColor: { name: 'Background Color', control: 'color' },
+  fontSize: { name: 'Font Size', control:
+      {type: 'range', min: 8, max: 20}
   }
 };
